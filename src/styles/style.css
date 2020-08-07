@@ -4,34 +4,27 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   padding: 2rem;
-}
-
-
-
-
-
-
-body {
-  text-rendering: optimizeLegibility;
-}
-h1 {
   text-align: center;
 }
-h3 {
-  margin-top: 3px;
-  margin-bottom: 3px;
+
+.magazine-page {
+  overflow: hidden;
 }
-.b-page {
-  border: 1px solid #ccc;
+
+.magazine-page__img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  transition: all .5s;
 }
+
 .b-wrap {
-  overflow-y: auto;
+  width: 100%;
+  transition: all .5s;
 }
 .b-page.b-grab {
   border: none;
 }
-p {
-  font-size: .9em;
-  font-family: Baskerville, 'Times New Roman', Times, serif;
-  line-height: 1.4;
-}
+
+
+
