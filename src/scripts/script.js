@@ -1,1 +1,3 @@
-console.log('File loaded.');
+$(function() {
+  $('#magazine').booklet();
+});

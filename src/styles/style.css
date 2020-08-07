@@ -5,3 +5,33 @@
   font-weight: 600;
   padding: 2rem;
 }
+
+
+
+
+
+
+body {
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.b-page {
+  border: 1px solid #ccc;
+}
+.b-wrap {
+  overflow-y: auto;
+}
+.b-page.b-grab {
+  border: none;
+}
+p {
+  font-size: .9em;
+  font-family: Baskerville, 'Times New Roman', Times, serif;
+  line-height: 1.4;
+}
